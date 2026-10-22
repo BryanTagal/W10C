@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #222;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 1s;
+}
+
+header {
+    background-color: #243b55;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2, p {
+    padding: 15px;
+    margin: 20px auto;
+}
+
+#clickMe {
+    background-color: #d6eaff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#doubleClickMe {
+    background-color: #ffe0e0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#hoverMe {
+    background-color: #d9f7d9;
+    border-radius: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#spaceMessage {
+    background-color: #fff0c2;
+    border-radius: 10px;
+}
+
+#movingBox {
+    background-color: #805ad5;
+    color: white;
+    width: 120px;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    position: relative;
+    transform: translate(0, 0);
+    transition: transform 0.5s ease;
+}
+
+#timerMessage {
+    background-color: #d6e4ff;
+    border-radius: 10px;
+}
+
+#secretMessage {
+    background-color: #e8d9ff;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    color: #555;
+}
